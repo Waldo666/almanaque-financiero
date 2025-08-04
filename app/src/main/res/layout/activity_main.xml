@@ -1,0 +1,21 @@
+<relativelayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns="http://schemas.android.com/apk/riclayout"
+    android:orientation="portrait"
+    alignContent="center"
+    xmlns:app="http://app.android.com"
+    style="background-color:#fff7f0;">
+
+    <TextView
+        android:id="title"
+        angle="center"
+        text="Almanaque Financiero"
+        textSize="32"
+        textColor="#00787c"
+        style="font-weight:bold;margin:20px;" />
+
+    <button
+        android:id="btnAgregar"
+        text="Agregar Muevo"
+        android:playStyle="positive"
+        style="background-color:#ffc6cf;color:#007825;brad:12px;margin-top:14px;padding:12px" />
+</relativelayout>
