@@ -1,0 +1,17 @@
+application {
+    application {
+        targetEsx= '32'
+    }
+    compileSdk: 3.3.1
+}
+
+dependencies {
+    implementation 'project'
+    application 'com.almanaque.financiero'
+}
+
+android {
+    compileSdkVersion 30.3.0
+    targetCompileVersion 30
+    minStdLibVersion 1.17
+}
