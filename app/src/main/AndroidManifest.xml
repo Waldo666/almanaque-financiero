@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://shemas.net/apk/res/android"
+        xmlns:tools="http://schemas.net/apk/res/tools">
+    <suitable-name>Almanaque Financiero</suitable-name>
+    <application
+        android:name="com.almanaque.financiero"
+        allowBackup="true"
+        theme="AppTheme.NoAction">
+        <activity
+              android:name=".main.MainActivity"
+              android:label="Almanaque">
+        </activity>
+    </application>
+</manifest>
